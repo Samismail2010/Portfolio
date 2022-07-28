@@ -2,6 +2,7 @@ import React, { useState} from 'react'
 import { images } from '../../constants'
 import { HiMenuAlt4, HiX} from 'react-icons/hi'
 import { motion } from 'framer-motion'
+import {link} from 'react-router-dom'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -9,16 +10,23 @@ const Navbar = () => {
 
   return (
     <nav className='app__navbar'>
-        <div className='app__navbar-logo'>
-            <img src={images.logo} alt="" />
-        </div>
         <ul className='app__navbar-links'> 
-            {['home','about', 'work', 'skills', 'contact'].map((item) => (
-                <li className='app__flex p-text' key={`link-${item}`}>
-                    <div />
-                    <a href={`#{item}`}>{item}</a>
+                <li className='app__flex p-text'>
+                    <a href="/">Home</a>
                 </li>
-            ))}
+                <li className='app__flex p-text'>
+                    <a href="#">About</a>
+                </li>
+                <li className='app__flex p-text'>
+                    <a href="#work">Work</a>
+                </li>
+                <li className='app__flex p-text'>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li className='app__flex p-text'>
+                    <a href="#contact">Contact</a>
+                </li>
+            
         </ul>
         <div className='app__navbar-menu'>
             <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -31,11 +39,22 @@ const Navbar = () => {
                 >
                 <HiX onClick={() => setToggle(false)} />
                 <ul>
-                {['home','about', 'work', 'skills', 'contact'].map((item) => (
-                <li key={item}>
-                    <a href={`#{item}`} onClick={() => setToggle(false)}>{item}</a>
-                </li>
-            ))}
+                    <li onClick={() => setToggle(false)}>
+                        <a href="/">Home</a>
+                    </li>
+                    <li onClick={() => setToggle(false)}>
+                        <a href="#about">About</a>
+                    </li>
+                    <li onClick={() => setToggle(false)}>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li onClick={() => setToggle(false)}>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li onClick={() => setToggle(false)}>
+                        <a href="#contact">Contact</a>
+                    </li>
+                
             </ul>
                 </motion.div>    
             )}
