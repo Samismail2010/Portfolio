@@ -67,8 +67,9 @@ const Skills = () => {
                 data-for={work.name}
                 key={work.name}
                 >
-                  <h4 className='bold-text'>{work.name}</h4>
-                  <p className='p-text'>{work.company}</p>
+                  <h4 className='bold-text'>{work.company}</h4>
+                  <p className='p-text'>{work.name}</p>
+                  <p className='p-text'>{work.desc}</p>
                 </motion.div>
                 <ReactTooltip
                 id={work.name}
