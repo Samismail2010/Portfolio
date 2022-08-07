@@ -19,7 +19,15 @@
 
    return (
      <>
-      <h2 className='head-text'>I know that <span>Good design</span> <br />means <span>Good business</span></h2>
+      <h2 className='head-text'><span>Clean Code</span> <br />means <span>Less Stress</span></h2>
+      <br/>
+      <h2>About Me</h2>
+      <br/>
+      <h4>Recent Full Stack Developer graduate from SMU with fundamental knowledge of software design, development, and testing.
+        <br />Looking to leverage gained experience from the past year to a Junior developer role.
+      </h4>
+      <br/>
+      <h1>Fullstack Developer</h1>
 
       <div className='app__profiles' id='about'>
             {abouts.map(( about, index) => (
