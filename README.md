@@ -27,13 +27,13 @@ A React built portfolio to display projects established by myself.
 * SASS
 
 ## Screenshots
-### About Me Section
+* About Me Section
 <img width="1312" alt="Screen Shot 2022-08-07 at 5 03 55 PM" src="https://user-images.githubusercontent.com/88996409/184158541-916ae180-c1e6-4fe7-80ea-ab2bd70e6800.png">
-### Work Section
+* Work Section
 <img width="1312" alt="Screen Shot 2022-08-07 at 5 04 16 PM" src="https://user-images.githubusercontent.com/88996409/184158582-92f3b4cb-baf3-4b0a-b30a-263d892bab82.png">
-### Experience Section
+* Experience Section
 <img width="1304" alt="Screen Shot 2022-08-07 at 5 04 52 PM" src="https://user-images.githubusercontent.com/88996409/184158625-7d313c90-4a14-46f7-9415-50c8a4b131b2.png">
-### Contact Me Section
+* Contact Me Section
 <img width="1311" alt="Screen Shot 2022-08-07 at 5 05 14 PM" src="https://user-images.githubusercontent.com/88996409/184158651-35fd7706-b128-4943-a882-26ad2b7c2372.png">
 
 ## Contributions
