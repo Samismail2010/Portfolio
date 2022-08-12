@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className='app__navbar'>
         <ul className='app__navbar-links'> 
                 <li className='app__flex p-text'>
-                    <a href="/">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li className='app__flex p-text'>
                     <a href="#">About</a>
