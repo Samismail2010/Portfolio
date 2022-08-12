@@ -3,9 +3,13 @@
 ## Description
 A React built portfolio to display projects established by myself.
 
+## Deployed 
+https://samismail-port.herokuapp.com/
+
 ## Table of Contents
 
 * [Description](#description)
+* [Deployed](#Deployed)
 * [Installation](#installation)
 * [Language](#language)
 * [Screenshots](#screenshots)
