@@ -4,7 +4,7 @@
 A React built portfolio to display projects established by myself.
 
 ## Deployed 
-https://samismail-port.herokuapp.com/
+https://zippy-salmiakki-b7a40e.netlify.app/
 
 ## Table of Contents
 
